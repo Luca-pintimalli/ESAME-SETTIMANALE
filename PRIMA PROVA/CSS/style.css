@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    color:#393d41 ;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+
+}
+
+
+
+
+/*--------header--------*/
+header{
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 108px;
+}
+
+header figure{
+    margin-top: 0;
+}
+
+
+#logo{
+    max-width: 35%;
+    text-align: center;
+    margin-top: 20px
+}
+
+
+/*------Main-------*/
+main{
+    margin-top: 0;
+}
+
+/*-------primo blocco----*/
+#content1{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1{
+   color: #25a2c3 ;
+   font-family: "Montserrat", sans-serif;
+   font-weight: bold; 
+   line-height:  1.5;
+   margin-top: 0;
+   padding: 4%;
+   font-size: 170%;
+}
+
+#primo-paragrafo{
+    font-size: 120%;
+}
+
+p {
+    font-size: 130%;
+    margin-inline: 13px;
+}
+
+#submit{ 
+    color: white;
+    background-color: #ff5a04;
+    border-radius: 10%;
+    width: 115px;
+    height: 50px;
+    margin-top: 6%;
+    margin-bottom:7%
+
+}
+
+
+/*------secondo blocco-----*/
+#second-article{
+    margin-top:15%
+}
+
+.secondo-blocco{
+    text-align: center
+}
+
+div h3 {
+    color: #25a2c3 ;
+    margin-bottom: 10px;
+}
+
+.testo{
+    margin-top: 10px;
+}
+
+#img-pc{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/*--------terzo blocco-------*/
+
+aside{
+    background-color: #e22d0e;
+    width: 100%;
+    height: 333px;
+    color: white;
+    text-align: center;
+}
+
+#terzo-blocco{
+    margin-bottom: 0;
+}
+
+
+#garanzie{
+    padding: 40px;
+    font-size: 190%;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+blockquote{
+    margin-top: 0;
+    font-size: 100%;
+    font-style: italic;
+}
+
+
+#mario-rossi{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 120%;
+}
+
+
+#ceo{
+    margin-top: 0;
+    font-size: 70%;
+}
+
+
+
+/*----quarto blocco-------*/
+section div{
+    text-align: center;
+    margin-inline: 6%;
+    border: 1px solid #e0d2d2;
+    margin-top: 40px;
+    margin-bottom: 10px
+}
+
+#qblocco{
+    margin-top: 15%;
+
+}
+
+#foto1, #foto2, #foto3{
+    width: 100%;
+}
+
+.titolo3{
+    margin-top: 3%;
+    color: #25a2c3;
+    margin-bottom: 3%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.paragrafo{
+    margin-top: 0;
+    font-size: 100%;
+    margin-bottom: 12%;
+}
+
+#blocco3{
+    margin-bottom: 70px;
+}
+
+
+
+/*------footer------*/
+footer{
+    background-color: #25a2c3;
+    text-align: center;
+    width: 100%;
+    height: 380px;
+    color: #c8e7f0 ;
+}
+
+footer h2{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200%;
+    padding: 40px;
+    font-size: 190%;
+}
+
+div a{
+    color: #c8e7f0 ;
+}
+
+hr{
+    width: 50%;
+    margin-top: 30px;
+}
+
+#copy{
+    font-size: 90%;
+    color: #c8e7f0;
+}
+
+#mixalpay{
+    color: #c8e7f0;
+
+}

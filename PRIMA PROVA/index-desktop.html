@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corso Web Developer - Epicode schoo</title>
+    <meta name="Description"
+        content="Da zero a Epicode con i corsi completi per diventare uno sviluppatore professionista in 3 mesi.">
+    <link rel="stylesheet" href="CSS/style-desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+    <!--HO AVUTO PROBLEMI CON IL COLLEGATO DEL FILE CSS, PENSAVO DI AVERLO COLLEGATO MA NON MI SONO ACCORTO CHE INVECE STAVO FACENDO DELLE MODIFICHE ALL'ALTRO FILE
+        SONO RIMASTO UN PO' INDIETRO SU QUESTO ESERCIZIO , USANDO FLOAT METTO IL TESTO SULLA DX DELLE IMMAGINI COME HO FATTO(CE ANCORA DA MIGLIORARE LA SPAZIATURA TRA LE VARIE SCRITTE) 
+        INVECE PER LE 3 SEZIONI UNA A FIANCO ALL'ALTRA AVREI USATO DISPLAY: FLEX , VISTO CHE NON SI POTEVA USARE AVREI PROVATO CON UN DISPLAY INLINE(?) 
+    -->
+
+    <header>
+        <!--logo epicode-->
+        <figure>
+            <img id="logo" src="images/logo.png" alt="logo-Epicode">
+        </figure>
+
+    </header>
+
+    <main>
+
+        <!---primo blocco-->
+        <article>
+
+            <div id="content1">
+
+                <h1>Corso Web <br>Developer</h1>
+
+                <p id="primo-paragrafo">Smetti di inseguire i titoli, inizia a lavorare. mentre tutti vogliono
+                    arricchire il CV, tu pensa ad
+                    arricchire le tue competenze</p>
+
+                <input id="submit" type="submit" value="PARTIAMO!">
+
+            </div>
+
+        </article>
+
+
+        <!---Secondo blocco-->
+        <article id="second-article">
+
+
+
+            <figure>
+                <img id="img-pc" src="images/notebook.jpg" alt="immagine-pc">
+            </figure>
+
+
+            <div class="secondo-blocco">
+
+                <h3>Tutti ti cercheranno</h3>
+                <p class="testo">Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola
+                    di più.</p>
+
+            </div>
+
+            <div class="secondo-blocco">
+                <h3>Lavora da dove vuoi</h3>
+                <p class="testo">Lavora da casa, in riva al mare o in montagna.</p>
+
+            </div>
+
+
+
+            <div class="secondo-blocco">
+
+                <h3>Scegli il tuo ruolo</h3>
+                <p class="testo">Potrai scegliere se essere Azienda, Freelance o Startup.</p>
+
+            </div>
+
+            <div class="secondo-blocco">
+
+                <h3>Lavoro in libertà</h3>
+                <p class="testo">Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+
+            </div>
+
+            <br>
+
+
+        </article>
+
+
+        <!--Terzo blocco-->
+        <aside>
+            <div id="terzo-blocco">
+                <h2 id="garanzie">Epicode garantisce</h2>
+                <blockquote cite="#">"3 mesi intensivi di corso che cambieranno radicalmente la tua vita".</blockquote>
+                <p id="mario-rossi">Mario Rossi</p>
+                <p id="ceo">CEO,epicode</p>
+
+            </div>
+
+        </aside>
+
+
+        <!---quarto blocco-->
+        <section>
+
+            <div class="quarto-blocco" id="qblocco">
+                <img id="foto1" src="images/foto1.jpg" alt="foto pc su una scrivania">
+                <h4 class="titolo3">Il tuo Pc</h4>
+                <p class="paragrafo">Se vuoi diventare developer è l’unico strumento di cui hai bisogno.</p>
+
+            </div>
+
+            <div class="quarto-blocco">
+                <img id="foto2" src="images/foto2.jpg" alt="pc illuminato">
+                <h4 class="titolo3">Impara ora</h4>
+                <p class="paragrafo">Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.</p>
+
+            </div>
+
+            <div class="quarto-blocco" id="blocco3">
+                <img id="foto3" src="images/foto3.jpg" alt="foto riunione">
+                <h4 class="titolo3">Lavora subito</h4>
+                <p class="paragrafo">Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--inizio footer---->
+    <footer>
+        <div>
+            <h2>Contattaci</h2>
+            <ion-icon name="call-outline"></ion-icon>
+            <a class="linkfooter" href="tel:(+39)11223456">(+39)11223456</a>
+            <br>
+            <ion-icon name="call-outline"></ion-icon>
+            <a class="linkfooter" href="mailto:info@epicode.school">info@epicode.school</a>
+            <address>
+                <ion-icon name="navigate-circle-outline"></ion-icon>
+                Via Appia 1 - 00100 Roma (RM)
+            </address>
+            <hr>
+            <p id="copy">&#169;2021. immagini di <a id="mixalpay" href="#" target="_blank">Mixalpay</a></p>
+
+        </div>
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+</body>
+
+</html>
